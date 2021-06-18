@@ -12,8 +12,8 @@ class FizzBuzz
     end
   end
 
-  def self.range
-    (1..100).to_a
+  def self.range(start_number = 1, end_number = 100)
+    (start_number..end_number).to_a
   end
   
   def self.init 
