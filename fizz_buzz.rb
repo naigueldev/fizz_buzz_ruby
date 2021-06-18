@@ -17,7 +17,7 @@ class FizzBuzz
   end
   
   def self.init 
-    range.each { |number| 
+    range.each do |number| 
       if is_multiple_of(number, 3) && is_multiple_of(number, 5)
         puts "FizzBuzz"
       elsif is_multiple_of(number, 3)
@@ -27,7 +27,7 @@ class FizzBuzz
       else
         puts number 
       end
-    }
+    end
   end
 
   def self.is_multiple_of(number, multiple)
